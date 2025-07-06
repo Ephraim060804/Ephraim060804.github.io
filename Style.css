@@ -1,0 +1,208 @@
+header {
+  background-color: #202020;
+  display: flex;
+  align-items: center;         
+  justify-content: space-between; 
+  padding: 0 40px;
+  height: 80px;                
+  position: fixed;     
+  top: 0;               
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  position: fixed;
+}
+
+.LIEN {
+  display: flex;
+  gap: 20px;
+  font-family: 'roboto';
+  position: fixed;
+  padding-left: 60%;
+}
+
+.LIEN a {
+  color: white;
+  text-decoration: none;
+}
+
+.LIEN a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+img{
+  height: auto;
+  width: 1400px;
+  position: fixed;
+  animation:backwards;
+  width:100% ;
+ 
+}
+.image-avec-texte {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-avec-texte img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.texte-sur-image {
+    position: fixed;
+    top: 20%; /* Position verticale */
+    left: 60%; /* Position horizontale */
+    transform: translate(-50%, -50%); /* Centrage */
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+
+    background-size: 100%;
+    padding-left: 100%;
+    padding-right: 100%;
+    border: 100%;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 120%;
+    padding-block-end: 100%;
+    
+}
+.paragra{
+  font-size: 120%;
+  color:white;
+  padding-left: 20%;
+  font-family: 'roboto';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 39%;
+  padding: 20px;
+  height: 20%;
+
+
+}
+h1{
+  font-family: 'roboto';
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 30%;
+  padding: 20px;
+  height: 20%;
+  
+}
+h4{
+  font-family: 'roboto';
+  color:white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 28%;
+  padding: 65.5px;
+  height: 20%;
+}
+em{
+  color: yellow;
+}
+button{
+  color: white;
+  height: 40px;
+  width: 90px;
+  font-family: 'roboto';
+  
+  border-radius: 10%;
+  border-color: yellow;
+  background: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 26%;
+  top: 59%;
+  padding:0px;
+  
+  
+}
+button:hover{
+  color: black;
+}
+.btn button{
+  font-family:'roboto';
+  color: #202020;
+  height: 40px;
+  right: 90px;
+  border-color: #202020;
+  background-color: yellow;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 16%;
+  top: 59%;
+}
+.btn button:hover{
+  color: black;
+}
+.bloc {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+.apparence{
+  position: relative;
+   
+  background-color: beige;
+  padding-left: 100%;
+  font-size: 50%;
+  z-index: 1;
+  padding-right: 100%;
+  align-items: center;
+
+  margin-left: 0%;
+  padding-top: 100%;
+  
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 80%;
+  font-size: 1.1em;
+  text-align: justify;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 2s ease;
+  position: relative;
+  z-index: 2;
+  font-family: 'roboto';
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+

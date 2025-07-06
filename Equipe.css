@@ -1,0 +1,163 @@
+header {
+  background-color: #202020;
+  display: flex;
+  align-items: center;         
+  justify-content: space-between; 
+  padding: 0 40px;
+  height: 80px;                
+  position: fixed;     
+  top: 0;               
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  position: fixed;
+}
+
+.LIEN {
+  display: flex;
+  gap: 20px;
+  font-family: 'roboto';
+  position: fixed;
+  padding-left: 60%;
+}
+
+.LIEN a {
+  color: white;
+  text-decoration: none;
+}
+
+.LIEN a:hover {
+  color: yellow;
+  text-decoration: underline;
+
+}
+h1{
+  font-family: 'roboto';
+  color:#202020;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 8%;
+  padding: 20px;
+  height: 20%;
+  animation: 0.3s;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: scale(1);
+  opacity: 1;
+  will-change: transform, opacity;
+  
+}
+
+h4{
+  font-family: 'roboto';
+  color:#202020;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 5%;
+  padding: 65.5px;
+  height: 20%;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: scale(1);
+  opacity: 1;
+  will-change: transform, opacity;
+}
+h1.scrolled, h4.scrolled {
+  transform: scale(0.5);
+  opacity: 0;
+}
+em{
+  color: yellow;
+  background-color: #202020;
+}
+.images {
+  background-color:#202020;
+  margin-top: 10%;
+  border-radius: 5%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10%;
+  background-color: #202020;
+
+}
+.membre {
+  font-family: 'roboto';
+  text-align: center;
+  width: 30%;
+  max-width: 200px;
+  background-color: yellow;
+  border-radius: 10%;
+  transition: transform 0.3s ease;
+}
+.membre:hover {
+  transform: scale(1.05);
+}
+h2{
+  font-family: 'roboto';
+  background-color: #202020;
+  border-radius: 100%;
+  text-align:center;
+  color: white;
+  transition: 0.3s ease;
+}
+h2:hover{
+  transform: scale(1.05);
+}
+.membre1 h5{
+  font-family:'roboto';
+}
+.membre1 h3{
+  top: 50%;
+  font-family: 'roboto';
+}
+.membre2 h5,h3{
+  font-family:'roboto';
+}
+.membre3{
+  font-family: 'roboto';
+}
+.membre4{
+  font-family: 'roboto';
+}
+.membre5{
+  font-family: 'roboto';
+}
+#popup {
+  position: fixed;
+  top: 20%;
+  right: -400px; /* caché au départ */
+  background-color: #202020;
+  color: yellow;
+  padding: 20px 40px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: right 1s ease-in-out;
+  z-index: 1000;
+  top: 65%;
+}
+#popup.show {
+  right: 20px;
+}
+#popup.hide {
+  right: -500px;
+}
+

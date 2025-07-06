@@ -1,0 +1,183 @@
+header {
+  background-color: #202020;
+  display: flex;
+  align-items: center;         
+  justify-content: space-between; 
+  padding: 0 40px;
+  height: 80px;                
+  position: fixed;     
+  top: 0;               
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  position: fixed;
+}
+
+.LIEN {
+  display: flex;
+  gap: 20px;
+  font-family: 'roboto';
+  position: fixed;
+  padding-left: 60%;
+}
+
+.LIEN a {
+  color: white;
+  text-decoration: none;
+}
+
+.LIEN a:hover {
+  color: yellow;
+  text-decoration: underline;
+
+}
+h1{
+  font-family: 'roboto';
+  color:#202020;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 8%;
+  padding: 20px;
+  height: 20%;
+  animation: 0.3s;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: scale(1);
+  opacity: 1;
+  will-change: transform, opacity;
+  
+}
+
+h4{
+  font-family: 'roboto';
+  color:#202020;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  top: 5%;
+  padding: 65.5px;
+  height: 20%;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: scale(1);
+  opacity: 1;
+  will-change: transform, opacity;
+}
+h1.scrolled, h4.scrolled {
+  transform: scale(0.5);
+  opacity: 0;
+}
+em{
+  color: yellow;
+  background-color: #202020;
+}
+img{
+  position: fixed;
+  width: 1366px;
+  height: auto;
+  
+}
+.arriere_plan {
+  background-image: url("route soir.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;  
+  padding: 40px 10px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+/* Zone de réservation au-dessus de l’image */
+.reservation {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 1);
+  margin: 20px auto;
+  position: relative;
+}
+
+
+.reservation h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #202020;
+}
+
+.reserve input,
+.reserve select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: 1px solid #ccdd;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+.inline-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.inline-fields .field {
+  flex: 1 1 48%; 
+  font-family: 'roboto';
+}
+
+
+@media (max-width: 600px) {
+  .inline-fields .field {
+    flex: 1 1 100%; 
+  }
+}
+
+.submit-btn {
+  background-color:#202020;
+  color:white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+   
+}
+
+.reset-btn {
+  background-color:#202020;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+  
+}
+.submit-btn:hover {
+  background-color:yellow;
+  color:#202020;
+}
+
+.reset-btn:hover {
+   background-color:yellow;
+  color:#202020;
+}

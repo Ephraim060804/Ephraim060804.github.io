@@ -1,0 +1,82 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express agency Travel</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="icon" type="image" href="14cd1c9f1080fb75006637f2558c2526.png">
+</head>
+<body>
+    <script src="Script.js"></script>
+    <header>
+        <img src="14cd1c9f1080fb75006637f2558c2526.png">
+        <div class="LIEN">
+            <a href="Index.html"> Acceuil </a>
+            <a href="Nos Service.html">Nos Services</a>
+            <a href="https://chat.whatsapp.com/KsQAmEiCMe85gZYdLVm0pl">Nous Contacter</a>
+        </div>
+    </header>
+    <div class="image-avec-texte">
+        
+        <p class="texte-sur-image"></p>
+            
+    </div> 
+
+    <h1>Express</h1>
+    <h4>agency <em>Travel</em></h4>
+    <form action="réservation.php" method="post">
+        <div class="arriere_plan">
+            <div class="reservation">
+        <h3>Réservation</h3>
+        <div class="reserve">
+            <div class="inline-fields">
+                <div class="field">Nom: <input type="text" name="a" size="30"></div>
+                    <div class="field">Prénom: <input type="text" name="b" size="30"></div>
+        </div>
+
+        <div class="inline-fields">
+          <div class="field">Numéro: <input type="numero" name="c" size="30"></div>
+          <div class="field">
+            Départ:
+            <select name="d">
+              <option value="Pointe-Noire">Pointe-Noire</option>
+              <option value="Brazzaville">Brazzaville</option>
+              <option value="Dolisie">Dolisie</option>
+              <option value="Dolisie">Sibiti</option>
+              <option value="Dolisie">Bouansa</option>
+              <option value="Dolisie">Nkayi</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="inline-fields">
+          <div class="field">
+            Destination:
+            <select name="e">
+              <option value="Pointe-Noire">Pointe-Noire</option>
+              <option value="Brazzaville">Brazzaville</option>
+              <option value="Dolisie">Dolisie</option>
+              <option value="Dolisie">Sibiti</option>
+              <option value="Dolisie">Bouansa</option>
+              <option value="Dolisie">Nkayi</option>
+            </select>
+          </div>
+          <div class="field">
+            Paiement:
+            <select name="f">
+              <option value="Mobile money">MTN money</option>
+              <option value="Airtel money">Airtel money</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="inline-fields">
+          <input type="submit" value="Envoyer" class="submit-btn">
+          <input type="reset" value="Annuler" class="reset-btn">
+        </div>
+      </div>
+    </div>
+
+        </div>
+    </form>
+</body>
